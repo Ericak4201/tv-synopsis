@@ -1,0 +1,22 @@
+html
+    head
+        
+    body
+        h1=showdata.title
+        h2 Developed By: 
+        div
+            ul
+                for developer in showdata.developedBy
+                    li=developer
+        h2 Starring:
+        div
+            ul
+                for star in showdata.starring
+                    li=star
+        h2 Seasons:
+        div
+            ul  
+                for season in showdata.seasons
+                    li
+                        a(href=`/season/${season.number}`)=`Season ${season.number}`
+                        

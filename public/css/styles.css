@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%;
+}
+
+table,td,th{
+    border: 3px solid black;
+}
+
+th{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+tr{
+    height: 45px;
+    
+}
+
+.episode-num {
+    text-align: center;
+    width: 45px
+}
+
+.episode-title, .episode-director {
+padding-left: 10px;
+}
+
+.episode-synopsis {
+padding-left: 4px;
+}
